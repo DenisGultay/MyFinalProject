@@ -1,3 +1,6 @@
+/**@author Користувач
+ * The class describes the hotel  and it's fields: ID, hotel's name, city, rooms are owned hotel.
+ * */
 package MyFinalProject;
 
 import java.util.List;
@@ -8,6 +11,12 @@ public class Hotel {
     private String name;
     private String city;
     private List<Room> rooms;
+/**Constractor for creating Hotel.
+ * @param id - uniqe identifier;
+ * @param name - hotel's name;
+ * @param city - city where hotel is located;
+ * @param rooms - list of hotel rooms;
+ * */
 
     public Hotel(long id, String name, String city) {
         this.id = id;

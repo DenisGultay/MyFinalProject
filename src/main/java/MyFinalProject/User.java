@@ -1,16 +1,17 @@
-package MyFinalProject;
 /** @author Користувач
- * The class describes the user  and its fields: ID, name, password.
+ * The class describes the user  and it's fields: ID, name, password.
  * */
+
+package MyFinalProject;
 
 public class User {
     private long id;
     private String name;
     private String password;
 /** Constructor for creating User
- * @param id = uniqe identifier;
- * @param name = user's name;
- * @param password = user's password;
+ * @param id - uniqe identifier;
+ * @param name - user's name;
+ * @param password - user's password;
  * */
     public User(long id, String name, String password) {
         this.id = id;
