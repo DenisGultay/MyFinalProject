@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="cmd">
+    <ANNOTATIONS>
+      <root url="file://C:/Program Files/Git/cmd" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://C:/Program Files/Git/cmd" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://C:/Program Files/Git/cmd" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://C:/Program Files/Git/cmd" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://C:/Program Files/Git/cmd" />
+    </SOURCES>
+    <jarDirectory url="file://C:/Program Files/Git/cmd" recursive="false" />
+    <jarDirectory url="file://C:/Program Files/Git/cmd" recursive="false" type="SOURCES" />
+  </library>
+</component>
