@@ -1,3 +1,12 @@
+/**@author Користувач
+ * Class to start working with the system;
+ * Login to system as user or administrator;
+ * Searching hotels by city or hotel's name;
+ * Searching rooms in hotels by ID or parameters(price and persons);
+ * Logout from system;
+ * Finishing work with the system;
+ */
+
 package MyFinalProject;
 
 import java.io.BufferedReader;

@@ -1,3 +1,7 @@
+/**@author Користувач
+ * The class describes the room in hotel  and it's fields: ID, price, persons, hotel where the room is located, reserved room or not.
+ * */
+
 package MyFinalProject;
 
 public class Room {
@@ -7,6 +11,13 @@ public class Room {
     private Hotel hotel;
     private User userReserved=null;
 
+    /**Constructor for creating Room.
+     * @param id - unique identifier in roomBase;
+     * @param price - room's price;
+     * @param persons - persons in the room;
+     * @param hotel - hotel where the room is located(ID, hotel's name, city);
+     * @param userReserved - user who reserves a room;
+     */
     public Room(long id, int price, int persons, Hotel hotel, User userReserved) {
         this.id = id;
         this.price = price;

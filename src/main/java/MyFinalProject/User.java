@@ -8,8 +8,9 @@ public class User {
     private long id;
     private String name;
     private String password;
+
 /** Constructor for creating User
- * @param id - uniqe identifier;
+ * @param id - unique identifier in userBase;
  * @param name - user's name;
  * @param password - user's password;
  * */

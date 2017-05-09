@@ -1,3 +1,12 @@
+/**@author Користувач
+ * Class for working with databases as administrator:
+ * Adding rooms, hotels in appropriate dataBases;
+ * Editing rooms, hotels in appropriate dataBases;
+ * Removing users, rooms, hotels in appropriate dataBases;
+ * Finding users, rooms, hotels by parameters in appropriate dataBases;
+ * Get information about reserving rooms by users;
+ */
+
 package MyFinalProject;
 
 import java.io.BufferedReader;

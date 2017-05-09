@@ -1,3 +1,12 @@
+/**@author Користувач
+ * Class for working as user;
+ * Registration in userBase;
+ * Login to system autorized user;
+ * Editing his data(name or password);
+ * Finding hotels by city or hotel's name;
+ * Finding rooms in hotels by ID or parameters(price and persons);
+ * Booking rooms in hotels and cancellation;
+ */
 package MyFinalProject;
 
 import java.util.List;
@@ -17,9 +26,7 @@ public class Controller {
     public boolean registerUser(User newUser) {
         long id;
         if (UserDAO.getUserDAO().getBase().size() != 0) {
-            User userWithTheBigestId = UserDAO.getUserDAO().getBase().stream().max((u1, u2) ->
-            {return Long.compare(u1.getId(), u2.getId());
-            }).get();
+            User userWithTheBigestId = UserDAO.getUserDAO().getBase().stream().max((u1, u2) -> {return Long.compare(u1.getId(), u2.getId());}).get();
             id = userWithTheBigestId.getId() + 1;
         } else id = 100;
         newUser = new User(id, newUser.getName(), newUser.getPassword());
@@ -262,8 +269,7 @@ public class Controller {
     public Room addRoom(Room room){
         long id;
         if(RoomDAO.getRoomDAO().getBase().size() != 0){
-            Room roomWithTheBiggestId = RoomDAO.getRoomDAO().getBase().stream().max((r1, r2) ->
-                    Long.compare(r1.getId(), r2.getId())).get();
+            Room roomWithTheBiggestId = RoomDAO.getRoomDAO().getBase().stream().max((r1, r2) -> Long.compare(r1.getId(), r2.getId())).get();
             id = roomWithTheBiggestId.getId()+1;
         }
         else id=300;

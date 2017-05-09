@@ -11,13 +11,12 @@ public class Hotel {
     private String name;
     private String city;
     private List<Room> rooms;
-/**Constractor for creating Hotel.
- * @param id - uniqe identifier;
+
+/**Constructor for creating Hotel.
+ * @param id - unique identifier in hotelBase;
  * @param name - hotel's name;
  * @param city - city where hotel is located;
- * @param rooms - list of hotel rooms;
  * */
-
     public Hotel(long id, String name, String city) {
         this.id = id;
         this.name = name;
